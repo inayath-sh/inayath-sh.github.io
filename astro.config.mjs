@@ -5,6 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astrofy-template.netlify.app',
+  site: 'inayath-sh.github.io',
+  base:'inayath-sh.github.io',
   integrations: [mdx(), sitemap(), tailwind()]
 });
